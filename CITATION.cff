@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: "@three-ws/skill-license"
+abstract: "On-chain skill licenses for agents — each purchased skill is a 1/1 SPL NFT plus a deterministic SkillLicense PDA. Mint, verify, and read trustless skill access in one import, no database required."
+type: software
+authors:
+  - name: three.ws contributors
+repository-code: "https://github.com/nirholas/three-ws-skill-license"
+url: "https://nirholas.github.io/three-ws-skill-license/"
+license: Apache-2.0
+version: 0.1.2

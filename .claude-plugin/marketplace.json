@@ -1,13 +1,20 @@
 {
   "name": "three-ws-skill-license",
-  "owner": {"name": "nirholas"},
+  "owner": {
+    "name": "nirholas"
+  },
   "description": "Trustless skill-license checks on Solana.",
   "plugins": [
     {
       "name": "three-ws-skill-license",
-      "source": "./",
+      "source": "./plugins/three-ws-skill-license",
       "description": "Check whether a wallet owns a purchased agent skill on-chain and read the full license record.",
-      "tags": ["solana", "license", "agent-skills"]
+      "category": "development",
+      "tags": [
+        "solana",
+        "license",
+        "agent-skills"
+      ]
     }
   ]
 }
